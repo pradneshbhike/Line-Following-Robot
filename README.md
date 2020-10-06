@@ -8,6 +8,7 @@ The purpose of our project is to save the time and human work for the transporta
 # CONCEPT OF LINE FOLLOWER:
 The line follower robot is a mobile machine that can detect and follow the line drawn on the floor. Generally, the path is predefined and can be either visible like a black line on a white surface with a high contrasted colour or it can be invisible like a magnetic filed.
 
+![](1.JPG)
  
 
  

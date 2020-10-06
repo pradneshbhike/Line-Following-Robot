@@ -13,6 +13,7 @@ Here in this arduino line follower robot when sensor senses white surface then a
 Control Section:
 Arduino UNO is used for controlling whole the process of line follower robot. The outputs of comparators are connected to digital pin number 2 and 3 of arduino. Arduino read these signals and send commands to driver circuit to drive line follower. 
 ![](2.JPG)
+
 Driver section:
 Driver section consists motor driver and two DC motors. Motor driver is used for driving motors because arduino does not supply enough voltage and current to motor. So we add a motor driver circuit to get enough voltage and current for motor. Arduino sends commands to this motor driver and then it drive motors.
 Working of Line Follower Robot using Arduino:

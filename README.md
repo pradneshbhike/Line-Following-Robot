@@ -9,6 +9,7 @@ The purpose of our project is to save the time and human work for the transporta
 The line follower robot is a mobile machine that can detect and follow the line drawn on the floor. Generally, the path is predefined and can be either visible like a black line on a white surface with a high contrasted colour or it can be invisible like a magnetic filed.
 
 ![](1.JPG) 
+
 In this arduino based line follower robot we have used IR Transmitters and IR receivers also called photo diodes. They are used for sending and receiving light. IR transmits infrared lights. When infrared rays fall on white surface, it’s reflected back by photodiodes which generates some voltage changes. When IR light falls on a black surface, light is absorb by the black surface and no rays are reflected back, thus photo diode does not receive any light or rays
 Here in this arduino line follower robot when sensor senses white surface then arduino gets 1 as input and when senses black line arduino gets 0 as input.
 Control Section:
@@ -96,10 +97,13 @@ I have developed app for selecting room number by MIT APP INVENTOR.
 
 OVERVIEW OF LINE FOLLOWING ROBOT SYSTEM:
 This smart and intelligent line following robot material supply system has divides in serial parts sensing, comparators, motor drive and actuators. The robot uses IR sensors to sense the line. An array of 6 IR LED’s (Tx) and sensors (Rx), facing the ground has been used in this setup.
+
 FUTURE SCOPE:
 Line following robot based material supply system can play a vital role in field of hospitality also line follower application over electronics engineering can’t be underestimated. In India many people show reluctance to get admitted in a hospital due to high cost issue. The cost of cure can be reduced by using application of line following robot. Camera can be attached to line following robot so that status of every patient can be observed from single room. A GSM MODULE can placed in line following robot so if any untoward accident takes occurs then system can make call to doctor. By using line following robot in real time application, health care system can be also managed in an efficient way.         
+
 Conclusion:
 The cost of health care in India greatly depends upon the land and location of building, the infrastructure and facilities and skilled staff required to maintain the expensive machinery. In a country like India where the population is more and resources are scarce. It is very much expensive to built this high end projects at every location. So what this system is an alternate to the existing system with robotic machinery which can handle tasks with lower per capita cost and better accuracy. This is very helpful to staff members in schools & colleges.
+
 SUMMARY:
 Chassis of 75 cm height is made. 4 motor clamps are mounted on four ends of lower sides of the chassis.
 Johnson motors of 100 rpm are mounted on four clamps.

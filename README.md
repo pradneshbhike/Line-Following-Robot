@@ -95,6 +95,11 @@ Android application
 
 I have developed app for selecting room number by MIT APP INVENTOR.
 
+# Flash code in Arduino
+I have used Aurdino IDE platform to write the code. Connect microcontroller with PC by B-type USB.
+
+![](17.JPG)
+
 OVERVIEW OF LINE FOLLOWING ROBOT SYSTEM:
 This smart and intelligent line following robot material supply system has divides in serial parts sensing, comparators, motor drive and actuators. The robot uses IR sensors to sense the line. An array of 6 IR LED’s (Tx) and sensors (Rx), facing the ground has been used in this setup.
 

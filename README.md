@@ -20,42 +20,54 @@ Working of Line Follower Robot using Arduino:
 Working of line follower is very interesting. Line follower robot senses black line by using sensor and then sends the signal to arduino. Then arduino drives the motor according to sensors' output.
 Here in this project we are using two IR sensor modules namely left sensor and right sensor. When both left and right sensor senses white then robot move forward.
 ![](3.JPG)
+
 If left sensor comes on black line then robot turn left side.
 ![](4.JPG)
+
 If right sensor sense black line then robot turn right side until both sensor comes at white surface. When white surface comes robot starts moving on forward again.
 When option 108 is pressed then robot stops when all sensors come on black strip.
 ![](5.JPG)
+
 When option 109 is pressed then robot stops when all sensors come on white surface
 ![](6.JPG)
+
 # Required Components
 Arduino
 In our Project we have used a microcontroller to control whole the process of system that is ARDUINO. Arduino is an open source hardware and very useful for project developments. There are many types of arduino like Arduino UNO, arduino mega, arduino pro mini, Lilypad etc. available in the market. Here we have used arduino UNO in this project as Arduino UNO is small and so bread board compatible.
 ![](7.JPG)
+
 Drive mechanism:
 We have used 4 caster wheel attached to 4 motors of robot can be controlled accordingly. Clamp, Motor and Wheel:
 ![](8.JPG)
+
 Chassis layout:
 Our first step is to drill holes on four sides of chassis to attach clamps with motor and caster wheel.
 ![](9.JPG)
+
 12V-1.2Amp Rechargeable battery
 Power supply to motors
  ![](10.JPG)
+
 We also need 9V battery for power supply to Arduino.
 
 Motor driver (LM293D)
 ![](11.JPG)
+
 Switching of motors is managed my   motor driver as per program to Arduino.
 
 Bluetooth circuit (HC-05)
 ![](12.JPG)
+
 For communication between Application and Arduino
 
 Jumper wires (M to F).  
 ![](13.JPG)
+
 Wires for connection between sensor and circuits
 
 6 Channel IR array sensor.
 ![](14.JPG)
+
 Array sensor to detect black line and/or white line
 
 Circuit Diagram
@@ -63,6 +75,7 @@ Circuit Diagram
 
 Android application
 ![](16.JPG)
+
 I have developed app for selecting room number by MIT APP INVENTOR.
 
 OVERVIEW OF LINE FOLLOWING ROBOT SYSTEM:
